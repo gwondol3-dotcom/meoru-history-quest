@@ -1,0 +1,13 @@
+# 웹에 올릴 파일만 남기고 모두 제외 (작업용 원본 그림, 도구는 올리지 않음)
+/*
+!/.gitignore
+!/.nojekyll
+!/README.md
+!/index.html
+!/teacher.html
+!/사용안내.html
+!/구글시트_코드.gs
+!/css/
+!/js/
+!/assets/
+/assets/img/*-raw.png

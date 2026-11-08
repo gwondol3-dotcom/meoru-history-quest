@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>머루반 역사 탐험대</title>
+<meta name="description" content="횡계초등학교 5학년 머루반 · 사회 5-2 1단원 게임형 복습">
+<link rel="icon" href="assets/img/meoru.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="top" class="hidden">
+    <div class="topbar">
+      <span class="brand"><img src="assets/img/meoru.png" alt="" onerror="this.remove()"><span><div class="t1">머루반 역사 탐험대</div><div class="t2">횡계초등학교 5학년 머루반</div></span></span>
+      <span class="who" id="who"></span>
+      <span class="spacer"></span>
+      <span class="chip star" id="stars">★ 0</span>
+      <span class="chip combo off" id="combo" title="연속 정답">🔥 0</span>
+      <span class="chip rank" id="rank">새싹 탐험가</span>
+      <button class="icon-btn" id="dexTop" title="유물 도감">📒</button>
+      <button class="icon-btn" id="soundBtn" title="소리 켜기/끄기">🔊</button>
+      <button class="icon-btn" id="homeBtn" title="처음 화면">🏠</button>
+    </div>
+    <div class="road" id="road"></div>
+  </header>
+
+  <main id="app"></main>
+  <nav class="footer-nav" id="nav"></nav>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
